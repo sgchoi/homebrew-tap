@@ -48,6 +48,6 @@ class Webtm < Formula
   end
 
   test do
-    system "#{bin}/webtm", "--version"
+    system "#{bin}/webtm", "version"
   end
 end
